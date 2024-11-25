@@ -1,4 +1,4 @@
-*   
+ *   
 {
     margin: 0%;
     padding: 0%;
@@ -946,7 +946,7 @@ body
 }
 .footer
 {
-    height: auto;
+    height: 600px;
     width: 100%;
     background-color: whitesmoke;
     position: relative;
@@ -978,31 +978,27 @@ body
     color: rgb(0, 0, 79);
     font-weight: bold;
     font-size: 20px;
-
 }
-.footer section
-{
-    display: flex;
-}
-.footer section .contact-sec
+ 
+.footer .contact-sec
 {
     position: relative;
-    top: 70px;
+    top: 90px;
     left: 18%;
 }
-.footer section .navigation-sec
+.footer .navigation-sec
 {
     position: relative;
-    top: 110px;
-    left: 24%;
+    top: 11px;
+    left: 37%;
 }
-.footer section .social-sec
+.footer .social-sec
 {
     position: relative;
-    top: 80px;
-    left: 34%;
+    top: -155px;
+    left: 56%;
 }
-.footer section a
+.footer a
 {
     color: gray;
     text-decoration: none;
@@ -1010,12 +1006,18 @@ body
 .findus-sec
 {
     position: relative;
-    left: 46%;
-    top: 70px;
+    left: 71%;
+    top: -260px;
 }
 .findus-sec a img
 {
     height: 45px;
+}
+.footer .hr-line2
+{
+    margin: 0% auto;
+    position: relative;
+    top: -110px;
 }
 .footer h5
 {
@@ -1024,4 +1026,6 @@ body
     font-weight: lighter;
     padding: 40px 0px;
     font-size: 17px;
+    position: relative;
+    top:-100px;
 }
